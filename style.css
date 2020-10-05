@@ -1202,4 +1202,209 @@ a {
 .proceed_to_checkout:hover {
   background-color: #be5966; }
 
+.singPg_img {
+  border: 1px solid #eaeaea;
+  background-color: #f7f7f7;
+  background-image: url("img/Layer_42.png");
+  height: 777px;
+  background-repeat: no-repeat;
+  background-position: top; }
+
+.singPg_img_wrap {
+  width: 100vw;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.chevron {
+  width: 47px;
+  height: 47px;
+  background-color: #d8d8d8;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center; }
+
+.chevron:hover {
+  background-color: #f16d7f; }
+
+.singPg__img_window {
+  width: 1141px;
+  height: 730px;
+  margin: -85px auto 0 auto;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 73px 261px; }
+
+.singPg__img_window h4 {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; }
+
+.singPg__uderLines {
+  display: flex;
+  justify-content: center; }
+
+.singPg__uderLines div {
+  border: 1px solid #eaeaea;
+  width: 43px; }
+
+.singPg__uderLines div:hover {
+  border: 2px solid #ef5b70;
+  width: 63px; }
+
+.singPg__img_window h3 {
+  color: #4d4d4d;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px; }
+
+.singPg__text {
+  color: #5e5e5e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center; }
+
+.singPg__material_designer {
+  display: flex;
+  justify-content: space-around; }
+
+.singPg__material_designer p {
+  color: #b9b9b9;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 22px; }
+
+.singPg__material_designer p span {
+  color: #2f2f2f; }
+
+.singPg__price {
+  color: #ef5b70;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px; }
+
+.singPg__uderLine_big {
+  width: 642px;
+  height: 1px;
+  border: 1px solid #eaeaea;
+  background-color: #ef5b70; }
+
+.singPg__choose {
+  display: flex;
+  justify-content: space-around; }
+
+.singPg__choose > div {
+  margin: 0 26px; }
+
+.singPg__choose h5 {
+  color: #2f2f2f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 58px; }
+
+.singPg__chooses {
+  width: 144px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  color: #bcbcbc;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400; }
+
+.red_choose {
+  color: #ef5b70; }
+
+.addToCart {
+  width: 537px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ef5b70;
+  background-color: #ffffff; }
+
+.addToCart p {
+  color: #ef5b70;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 15px; }
+
+.addToCart:hover {
+  background-color: #eaeaea; }
+
+.singPg_imgs {
+  width: 1141px;
+  height: 350px;
+  margin: 730px auto 200px auto; }
+
+.singPg_imgs > h3 {
+  color: #4d4d4d;
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center; }
+
+.singPg__items {
+  margin: 72px auto;
+  display: flex;
+  justify-content: space-between; }
+
+.fetured_item9 {
+  width: 261px;
+  height: 363px;
+  background-image: url("img/Layer_46.png");
+  background-repeat: no-repeat;
+  background-color: #e9e9e9;
+  background-position: top;
+  /* background-size: cover;*/ }
+
+.fetured_item10 {
+  width: 261px;
+  height: 363px;
+  background-image: url("img/Layer_47.png");
+  background-repeat: no-repeat;
+  background-color: #e9e9e9;
+  background-position: top; }
+
+.fetured_item11 {
+  width: 261px;
+  height: 363px;
+  background-image: url("img/Layer_48.png");
+  background-repeat: no-repeat;
+  background-color: #e9e9e9;
+  background-position: top; }
+
+.fetured_item12 {
+  width: 261px;
+  height: 363px;
+  background-image: url("img/Layer_49.png");
+  background-repeat: no-repeat;
+  background-color: #e9e9e9;
+  background-position: top; }
+
 /*# sourceMappingURL=style.css.map */
