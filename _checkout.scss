@@ -1,0 +1,84 @@
+.checkout__section {
+  width: 100vw;
+  padding: 0 5vw;
+  border-bottom: 1px solid #e8e8e8;
+  .shipping-forms {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 3vw;
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 342px;
+    }
+  }
+  h2{
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 72px;
+    text-transform: uppercase;
+    flex-grow: 1;
+    width: 100%;
+  }
+  h3 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+  }
+  .checkout__comment {
+    color: #b3b2b2;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .continue label {
+    color: #222222;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    vertical-align: middle;
+  }
+  button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+  }
+  button:hover {
+    color: white;
+    background-color: #f16d7f;
+  }
+  .login span {
+    color: #ff0d0d;
+  }
+  .login > p {
+    color: #222222;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .login input {
+    width: 25vw;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    padding-left: 10px;
+  }
+  .login button {
+    margin-right: 1vw;
+  }
+  .login a:hover {
+    color: #f16d7f;
+  }
+}
