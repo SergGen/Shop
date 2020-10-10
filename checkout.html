@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Single Page</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d6a8cde8b9.js" crossorigin="anonymous"></script>
 </head>
@@ -11,7 +11,7 @@
     <div class="header-left">
         <a href="index.html" class="header__logo">
             <img src="img/logo.png" alt="logo">
-        <span class=logo_letters>BRAN</span><span class="D_letter">D</span></a>
+            <span class=logo_letters>BRAN</span><span class="D_letter">D</span></a>
     </div>
     <div class="header-left2">
         <form method="get" class="header__search">
@@ -50,60 +50,51 @@
     </div>
 </section>
 
-<section class="singPg_img">
-    <div class="singPg_img_wrap">
-        <div class="chevron"><i class="fas fa-chevron-left"></i></div>
-        <div class="chevron"><i class="fas fa-chevron-right"></i></div>
-    </div>
-    <div class="singPg__img_window">
-        <h4 class="singPg__women_collection">WOMEN COLLECTION</h4>
-        <div class="singPg__uderLines">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <h3>MOSCHINO CHEAP AND CHIC</h3>
-        <p class="singPg__text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
-        <div class="singPg__material_designer">
-            <p>MATERIAL: <span>COTTON</span></p>
-            <p>DESIGNER: <span>BINBURHAN</span></p>
-        </div>
-        <p class="singPg__price">$561</p>
-        <div class="singPg__uderLine_big"></div>
-        <form method="get" class="singPg__choose">
+<section class="checkout__section">
+
+    <div class="shipping-forms">
+        <h2>01. SHIPPING ADRESS</h2>
+        <form method="get" class="continue">
             <div>
-                <h5>CHOOSE COLOR</h5>
-                <div class="singPg__chooses"><div><span class="red_choose"><i class="fas fa-square-full"></i></span> Red</div><i class="fas fa-chevron-down"></i></div>
+                <h3>CHECK AS A GUEST OR REGISTER</h3>
+                <p class="checkout__comment">Register with us for future convenience</p>
+            </div>
+            <fieldset>
+                <input type="radio" id="choice1" name="enter" value="guest"><label>CHECKOUT AS GUEST<br></label>
+                <input type="radio" id="choice2" name="enter" value="register"><label>REGISTER</label>
+            </fieldset>
+            <div>
+                <h3>REGISTER AND SAVE TIME!</h3>
+                <p class="checkout__comment">Register with us for future convenience</p>
             </div>
             <div>
-                <h5>CHOOSE SIZE</h5>
-                <div class="singPg__chooses">XXL <i class="fas fa-chevron-down"></i></div>
+                <p class="checkout__comment"> <i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                <p class="checkout__comment"> <i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
             </div>
+            <button>CONTINUE</button>
+        </form>
+        <form method="get" class="login">
             <div>
-                <h5>QUANTITY</h5>
-                <input class="singPg__chooses" type="text" name="quantity" value="2" maxlength="4">
+                <h3>Already registed?</h3>
+                <p class="checkout__comment">Please log in below</p>
+            </div>
+            <p>EMAIL ADDRESS<span>*</span></p>
+            <input type="text">
+            <p>PASSWORD<span>*</span></p>
+            <input type="password">
+            <p class="checkout__comment"><span>* Required Fileds</span></p>
+            <div>
+                <button>LOG IN</button>
+                <a href="#">Forgot Password ?</a>
             </div>
         </form>
-        <button class="addToCart"><img src="img/cart-red.svg" alt="cart-red"><p>Add to Cart</p></button>
     </div>
 </section>
-<section class="singPg_imgs">
-    <h3>YOU MAY LIKE ALSO</h3>
-    <div class="singPg__items">
-        <a href="#" class="fetured_item9"><div class="item-hover clearfix"><img src="img/cart-white.svg" alt="cart-white">Add to Cart</div>
-            <p class="item_lable">BLAZE LEGGINGS<br><span class="item_price">$52.00</span></p>
-        </a>
-        <a href="#" class="fetured_item10"><div class="item-hover clearfix"><img src="img/cart-white.svg" alt="cart-white">Add to Cart</div>
-            <p class="item_lable">ALEXA SWEATER<br><span class="item_price">$52.00</span></p>
-        </a>
-        <a href="#" class="fetured_item11"><div class="item-hover clearfix"><img src="img/cart-white.svg" alt="cart-white">Add to Cart</div>
-            <p class="item_lable">AGNES TOP<br><span class="item_price">$52.00</span></p>
-        </a>
-        <a href="#" class="fetured_item12"><div class="item-hover clearfix"><img src="img/cart-white.svg" alt="cart-white">Add to Cart</div>
-            <p class="item_lable">SYLVA SWEATER<br><span class="item_price">$52.00</span></p>
-        </a>
-    </div>
-</section>
+<section class="checkout__section"><h2>02. BILLING INFORMATION</h2></section>
+<section class="checkout__section"><h2>03. SHIPPING INFORMATION</h2></section>
+<section class="checkout__section"><h2>04. SHIPPING METHOD</h2></section>
+<section class="checkout__section"><h2>05. PAYMENT METHOD</h2></section>
+<section class="checkout__section"><h2>06. ORDER REVIEW</h2></section>
 
 <footer>
     <div class="footer_top">
@@ -171,6 +162,5 @@
         <div class="social"><i class="fab fa-google-plus-square"></i></div>
     </div>
 </footer>
-
 </body>
 </html>
